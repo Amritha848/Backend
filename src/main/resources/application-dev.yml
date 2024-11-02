@@ -1,0 +1,59 @@
+refresh:
+  token:
+    expiration:
+      time:
+        in:
+          milliseconds: 50000
+
+server:
+  port: 8082
+
+spring:
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+      write-null-map-values: true
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost/tamarind?createDatabaseIfNotExist=true
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+      javax:
+        persistence:
+          validation:
+            mode: none
+
+  mail:
+    host: smtp.gmail.com
+    password: ljzx jagq hyby iyqj 
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true           
+    username: riversidesolutions000@gmail.com
+
+  security:
+    secret:
+      key: 94a1abce9d005dbd9a0d8e5a6c4ef9585ff13136b7ac0a9c568be2ce2bf6589c
+    token:
+      expiration:
+        time: 50000
+
+twilio:
+
+   account-sid: AC26b175d3e6661b92cbfb24d83fad1d61
+   auth-token: 52e55f088a38c0564c31d3992caecfd0
+   phone-number:  +16312914363
+
+

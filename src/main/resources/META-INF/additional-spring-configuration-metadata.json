@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "spring.security.token.expiration.time",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.token.expiration.time'"
+  },
+  {
+    "name": "ivisecurity.client.app.urls",
+    "type": "java.lang.String",
+    "description": "A description for 'ivisecurity.client.app.urls'"
+  },
+  {
+    "name": "spring.security.secret.key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.secret.key'"
+  },
+  {
+    "name": "spring.security.token.expiration.time",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.token.expiration.time'"
+  },
+  {
+    "name": "refresh.token.expiration.time.in.milliseconds",
+    "type": "java.lang.String",
+    "description": "A description for 'refresh.token.expiration.time.in.milliseconds'"
+  },
+  {
+    "name": "spring.security.token.expiration.time",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.security.token.expiration.time'"
+  }
+]}
